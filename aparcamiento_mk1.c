@@ -104,7 +104,7 @@ void main() {
 			else {
 				printf("Plaza 2 - Ocupada - Matricula %s \n", matricula2);
 				final2 = time(NULL);
-				printf("Ya ha de pagar %.2f euros y subiendo ", (final2 - inicio2)*0.00033);
+				printf("Ya ha de pagar %.2f euros y subiendo\n", (final2 - inicio2)*0.00033);
 			}
 				system("PAUSE");
 				system("cls");
